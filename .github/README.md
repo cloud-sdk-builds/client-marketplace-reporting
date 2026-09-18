@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-marketplace-reporting`](https://www.npmjs.com/package/@aws-sdk/client-marketplace-reporting/v/3.1134.0).
+[`@aws-sdk/client-marketplace-reporting`](https://www.npmjs.com/package/@aws-sdk/client-marketplace-reporting/v/3.1135.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-marketplace-reporting - [https://cloud-sdk-builds.github.io/?sdk=client-marketplace-reporting](https://cloud-sdk-builds.github.io/?sdk=client-marketplace-reporting)
-- @aws-sdk/client-marketplace-reporting v3.1134.0 - [https://cloud-sdk-builds.github.io/?sdk=client-marketplace-reporting&version=3.1134.0](https://cloud-sdk-builds.github.io/?sdk=client-marketplace-reporting&version=3.1134.0)
+- @aws-sdk/client-marketplace-reporting v3.1135.0 - [https://cloud-sdk-builds.github.io/?sdk=client-marketplace-reporting&version=3.1135.0](https://cloud-sdk-builds.github.io/?sdk=client-marketplace-reporting&version=3.1135.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-reporting@3.1134.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-reporting@3.1135.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-kSSNqUAe4DCdXQOuruGUXA60kzgSVo/Lgx7IPqorMqhASsgrG7MLzqhixDDt7pEL
+sha384-3mHnduBCgEFGaMlNHSW71H1chwYLQnv7Bck2wKFRsxcYs9NjIsEWs8dsx6pLy1ok
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-marketplace-reporting": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-reporting@3.1134.0/index.min.mjs"
+            "@aws-sdk/client-marketplace-reporting": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-reporting@3.1135.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-reporting@3.1134.0/index.min.mjs": "sha384-kSSNqUAe4DCdXQOuruGUXA60kzgSVo/Lgx7IPqorMqhASsgrG7MLzqhixDDt7pEL"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-reporting@3.1135.0/index.min.mjs": "sha384-3mHnduBCgEFGaMlNHSW71H1chwYLQnv7Bck2wKFRsxcYs9NjIsEWs8dsx6pLy1ok"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-marketplace-reporting": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-reporting@3.1134.0/index.min.mjs"
+                        "@aws-sdk/client-marketplace-reporting": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-reporting@3.1135.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-reporting@3.1134.0/index.min.mjs": "sha384-kSSNqUAe4DCdXQOuruGUXA60kzgSVo/Lgx7IPqorMqhASsgrG7MLzqhixDDt7pEL"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-reporting@3.1135.0/index.min.mjs": "sha384-3mHnduBCgEFGaMlNHSW71H1chwYLQnv7Bck2wKFRsxcYs9NjIsEWs8dsx6pLy1ok"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1134.0`)
+* Always pin to a specific version (`@3.1135.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-marketplace-reporting/blob/refs/tags/3.1134.0/LICENSE
+https://github.com/cloud-sdk-builds/client-marketplace-reporting/blob/refs/tags/3.1135.0/LICENSE
 ```
 
 ---
